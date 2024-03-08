@@ -57,3 +57,21 @@ And **_IDF = log( Nd/Dt)_**
 
 
 TFIDF = TF X IDF
+
+**eg: Let's consider a simple example with two documents:**
+
+Document 1: "The quick brown fox"
+Document 2: "The lazy dog"
+Suppose we want to calculate the TF-IDF score for the term "fox". We would perform the following steps:
+
+TF of fox in first doc = 1/4
+Tf of fox in second doc = 0 since there is no fox in the second doc
+
+Now IDF = log(2/1) since there are ttwo documents and fox appears in one doc 
+
+TFIDF for doc 1 = (1/4)x log(2)
+TFIDF for doc 2 = 0
+
+
+Refer to the ipynb file in the same folder for codes
+
