@@ -41,8 +41,8 @@ _refer the notebook in the folder for code_
 
 **_A few extra stuff related to neural word embeddings that you might want to learn because this doc is a rrefletion of what i am learning( won't get into too much of  details)_**
 
-    **GloVe (Global Vectors for Word Representation)**: GloVe is a word embedding technique used to obtain vectors for words, however it takes a different approach when compared to word2vec in training word embeddings.
-    GloVe is trained using a global matrix factorization technique. It constructs a co-occurrence matrix X where Xij represents the number of times word j appears in the context of word i . The model then learns to  factorize this matrix into word vectors. 
+**GloVe (Global Vectors for Word Representation)**: GloVe is a word embedding technique used to obtain vectors for words, however it takes a different approach when compared to word2vec in training word embeddings.
+GloVe is trained using a global matrix factorization technique. It constructs a co-occurrence matrix X where Xij represents the number of times word j appears in the context of word i . The model then learns to  factorize this matrix into word vectors. 
     
 when it comes to _loss function_ GloVe optimizes a loss function that measures how well the dot product of word vectors matches the logarithm of the co-occurrence probabilities. The loss function encourages word vectors to capture the semantic relationships between words based on their co-occurrence statistics. Now this might go a bit over the head so let me simplify it.
 
@@ -61,6 +61,7 @@ In our game, we want the computer to make the dot product of the secret codes fo
 So, our loss function checks how well the dot product matches how often words hang out together. If the dot product and the real hanging-out-together numbers match well, the computer gets a good score. If they don't match, the computer tries to adjust its secret codes to do better in the next round of the game.
 
 In simple words, the computer learns to make secret codes (word vectors) that help us understand how words are related by playing this game and trying to make the dot product of the codes match how often words hang out together in sentences.
+
 
 
 
