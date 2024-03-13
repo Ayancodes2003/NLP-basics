@@ -9,7 +9,7 @@ Stopwords are common words in a language (e.g., "the," "is," "and") that occur f
 # 3. Converting Text to Lowercase:
 Converting text to lowercase ensures that words with the same meaning but different cases (e.g., "Apple" vs. "apple") are treated as the same word. This normalization step helps improve the consistency of the text data and prevents duplication of features in NLP models.
 
-Example:
+**Example:**
 "Hi, This is Oliver here and we are planning to cook some LLMs. I also like to play valo"
 
 After preprocessing it would be like : hi this is oliver here and we are planning to cook some llms i also like to play valo
