@@ -1,1 +1,5 @@
-![NLP](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.analyticsvidhya.com%2Fblog%2F2022%2F01%2Fnlp-tutorials-part-i-from-basics-to-advance%2F&psig=AOvVaw3t9q3V6bZ1FkNM3uVU8_Oh&ust=1710521008736000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCPDCzLqZ9IQDFQAAAAAdAAAAABAE)
+![image](https://github.com/Ayancodes2003/NLP-basics/assets/119226120/cb413d77-bb99-44d5-8252-6770c9b21dc5)
+
+
+# Welcome to the NLP documentation. 
+This documentation precisely shows what I am learning throughout my NLP journey. A lot of documents are cluttered here and there so I decided to combine them in one 
