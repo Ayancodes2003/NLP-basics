@@ -12,3 +12,22 @@ Text classification finds diverse applications across various domains. Some popu
 * Age/Gender Identification of Anonymous Users: Predicting the age group or gender of users based on their online interactions or content.
 * Tagging Online Content: Automatically tagging or categorizing online content such as articles, blog posts, or social media posts.
 * Speech Recognition Used in Virtual Assistants like Siri and Alexa: Understanding and classifying spoken commands or queries in virtual assistant applications.
+**Details and code explained in the Applications.md file**
+
+
+Before we actually get into the application of Text Classificatiom in details, let's dive a bit into the approaches of text classification.
+
+### **Rule based approach**:
+ Rule based approach as the name suggest is dependent on certain predefined rules by a domain expert to classify text. The rules might be limguisitc, patterns, keywords etc. If you are still not clear an _example_ might help. Text is evaluated against the set of rules to determine its category. If certain conditions specified in the rules are met, the text is assigned to the corresponding category.
+> Consider the task of classifying news articles into categories such as Politics, Sports, and Entertainment. A rule-based approach might involve creating rules like:
+  If the article contains keywords like "election," "government," or "policy," classify it as Politics.
+  If the article mentions sports teams, players, or events, classify it as Sports.
+  If the article discusses movies, celebrities, or entertainment events, classify it as Entertainment. 
+
+### Let's get going into the **mathematical** part of it because what's NLP without math, also you can skip and jump to the next approach, this part is completely optional. 
+
+Text classification using rules involves evaluating the input text against the set of predefined rules. This evaluation can be represented mathematically as:
+
+$$category(text)=argmax_c( ( \sum_{i=1}^n Rule_i(Text).weight_i)$$
+$$Cqategory(text)$$ represents the predicted category for the input text.
+$$Rule_i
