@@ -29,5 +29,7 @@ Before we actually get into the application of Text Classificatiom in details, l
 Text classification using rules involves evaluating the input text against the set of predefined rules. This evaluation can be represented mathematically as:
 
 $$category(text)=argmax_c( ( \sum_{i=1}^n Rule_i(Text).weight_i)$$
-$$Cqategory(text)$$ represents the predicted category for the input text.
-$$Rule_i
+
+Category(text) represents the predicted category for the input text.
+
+Rule_i represents the evaluation of the i_th rule 
